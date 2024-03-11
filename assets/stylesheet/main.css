@@ -1,0 +1,202 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 10px;
+}
+
+nav {
+  width: 40vw;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+body {
+  background-color: #f1f2f4;
+}
+
+.input-container {
+  position: relative;
+  width: 45vw;
+}
+
+.input-container input[type="text"] {
+  padding: 10px 40px;
+  width: 100%;
+  background-color: #f0f5ff;
+  border: none;
+  border-radius: 6px;
+  font-size: 1.2rem;
+  /* Adjust the padding to accommodate the icon */
+}
+
+.input-container .icon {
+  position: absolute;
+  left: 10px; /* Adjust the position of the icon */
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 1.2rem;
+}
+
+nav ul li a {
+  font-size: 1.2em;
+}
+
+button {
+  border: 0;
+  background-color: transparent;
+  font-size: 1.3em;
+  padding: 6px;
+  font-weight: 400;
+}
+
+i {
+  margin: 0 5px;
+}
+
+button:hover {
+  background-color: #2a55e5;
+  color: #fff;
+  border-radius: 8px;
+  padding: 6px 3px;
+}
+section {
+  margin: 10px auto;
+}
+
+.secondary-nav {
+  background-color: #fff;
+
+  padding: 10px;
+}
+
+.secondary-nav .links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.secondary-nav .links div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  margin-top: 75px;
+}
+
+main img {
+  width: 100%;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+}
+
+.m-1 {
+  margin: 3px;
+}
+
+.container-fluid {
+  width: 98%;
+  margin: 0 auto;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.dropdown-Container {
+  position: relative;
+}
+
+.card-box {
+  display: flex;
+}
+.card {
+  border: 1px solid #000;
+  width: 25%;
+  margin: 10px;
+  text-align: center;
+}
+
+.card-image {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.dropdown {
+  display: none;
+  position: absolute;
+  background-color: #ffffff;
+  padding: 10px;
+  width: 200px;
+}
+
+.dropdown li {
+  margin: 10px auto;
+  padding: 10px;
+}
+.dropdown li:hover {
+  background-color: #bfbfbf;
+}
+
+.dropdown-Container:hover .dropdown {
+  display: block;
+}
+
+.dropdown-Container.menu:hover .dropdown {
+  display: block;
+  right: -25px;
+}
+
+footer {
+  padding: 30px;
+  background-color: #1e1e1e;
+  color: #fff;
+}
+
+.footer-container {
+  width: 100%;
+}
+
+.footer-container > ul {
+  display: flex;
+  margin: 0 20px;
+}
+
+footer .footer-container ul li a {
+  color: #fff;
+}
